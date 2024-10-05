@@ -3,8 +3,8 @@ const { readdirSync } = require("fs");
 const loadEvents = (client) => {
   let eventCount = 0;
 
-  readdirSync("./events/").forEach((dir) => {
-    const eventFiles = readdirSync(`./events/${dir}/`).filter((file) =>
+  readdirSync("src/events").forEach((dir) => {
+    const eventFiles = readdirSync(`src/events/${dir}/`).filter((file) =>
       file.endsWith(".js")
     );
     for (const file of eventFiles) {
