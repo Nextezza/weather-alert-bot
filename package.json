@@ -1,0 +1,11 @@
+{
+  "name": "weather-alert",
+  "version": "1.0.0",
+  "description": "A bot made in discord.js v14 bot by Team Nextezza",
+  "main": "src/base/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
